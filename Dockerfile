@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.05
 RUN apt-get update && apt-get install -y curl vim apache2
 COPY index.html /var/www/html/
 EXPOSE 80
